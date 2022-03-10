@@ -1,0 +1,60 @@
+.subtituloEncabezado{
+    justify-self: unset;
+    background-color: lightgrey;
+    text-align: center;
+    flex-direction: row;
+}
+#encabezado{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    flex-direction: row;
+}
+.ordenar{
+    display: grid;
+    justify-content: right;
+}
+
+
+h5{
+    color: black;
+}
+.imgprodu{
+    widows: 10px;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*main productos*/
+
+h1 {
+    color: black;
+
+}
+h2 {
+    color: black ;
+    justify-self: unset;
+    background-color: #e5c9d4;
+    text-align: center;
+    flex-direction: row;
+}
+.img{
+    grid-area: img;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    grid-gap: 7px;
+}
+.p-antetitulo {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}

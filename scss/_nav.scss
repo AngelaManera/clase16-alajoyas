@@ -1,0 +1,58 @@
+.col-lg-12,.col-lg-4, .container-fluid, .row {
+	padding: 0;
+	margin: 0;
+}
+.nav-link{
+	color:black!important;
+}
+.logoala{
+   grid-area: logo;
+   display: flex;
+   justify-content: center;
+}
+a:hover {
+    color: white;
+}   /*color de la nav hover*/
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+
+} /* esto es la barra de navegacion rosa que contiene prod.inici.talle.etc *//*modificar ancho o enlaces*/
+
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: Black!important; 
+}
+.nav-link:hover{
+    color:#e5c9d4!important ;
+}
+
+
+.nav--background{
+    background-color: Black;
+    text-align: center;
+    width: 100%;
+}
+.nav__item{
+    display: inline;
+}
+.nav__item--background{
+    background-color: #e5c9d4;
+    justify-items: center;
+
+}
+.nav-color{
+    color: black;
+    text-align: center;
+    flex-direction: row;
+    font-size: 18px;
+    width: 100%;
+}
