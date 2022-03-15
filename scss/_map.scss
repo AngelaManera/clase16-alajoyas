@@ -1,0 +1,35 @@
+$coloresPrincipales:(
+colorUno:black,
+colorDos:white,
+ColorRosa:#e5c9d4,
+ColorMarron:#d1b49f, 
+);
+
+@each $clave, $valor in $coloresPrincipales{
+	.#{$clave}{
+		color: $valor;
+	}
+	.#{$clave}{
+		color: $valor;
+	}
+	.#{$clave}{
+		color: $valor;
+	}
+	.#{$clave}{
+		color: $valor;
+	}
+}
+
+$estilos:(
+   color:black,
+   centro:center,
+   tfuente:20px,
+   paddingTop:10px,
+);
+
+div .p-antetitulo{
+	color:map-get($estilos,color);
+	text-align:map_get($estilos,centro);
+	font-size: map-get($estilos,tfuente);
+}
+    

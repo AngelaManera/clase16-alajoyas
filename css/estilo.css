@@ -729,3 +729,85 @@ a {
   text-align: center;
   widows: 100px;
   height: auto; }
+
+.colorUno {
+  color: black; }
+
+.colorUno {
+  color: black; }
+
+.colorUno {
+  color: black; }
+
+.colorUno {
+  color: black; }
+
+.colorDos {
+  color: white; }
+
+.colorDos {
+  color: white; }
+
+.colorDos {
+  color: white; }
+
+.colorDos {
+  color: white; }
+
+.ColorRosa {
+  color: #e5c9d4; }
+
+.ColorRosa {
+  color: #e5c9d4; }
+
+.ColorRosa {
+  color: #e5c9d4; }
+
+.ColorRosa {
+  color: #e5c9d4; }
+
+.ColorMarron {
+  color: #d1b49f; }
+
+.ColorMarron {
+  color: #d1b49f; }
+
+.ColorMarron {
+  color: #d1b49f; }
+
+.ColorMarron {
+  color: #d1b49f; }
+
+div .p-antetitulo {
+  color: black;
+  text-align: center;
+  font-size: 20px; }
+
+.boton, .boton-aceptar, .boton-cancelar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: #e5c9d4;
+  background-color: #e5c9d433;
+  border: 1px solid #e5c9d4;
+  border-radius: 20px; }
+
+.boton-aceptar {
+  background-color: #e5c9d4;
+  color: white;
+  border: 1px solid #e5c9d4; }
+
+.boton-cancelar {
+  background-color: red;
+  color: white;
+  border: 1px solid green; }
+
+div.footer {
+  color: #e5c9d4;
+  background-color: #e5c9d433;
+  font-size: 40px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }

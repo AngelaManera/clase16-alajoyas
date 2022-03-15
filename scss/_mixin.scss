@@ -1,0 +1,18 @@
+@mixin colorybackground($color,$background,$fsize){
+	color:$color;
+	background-color:$background;
+	font-size: $fsize;
+}
+div.footer{
+	@include colorybackground(#e5c9d4,#e5c9d433,40px);
+}
+@mixin flexRowCenter{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+}
+
+header{
+	@include flexRowCenter;
+
+}
