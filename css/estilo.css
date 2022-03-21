@@ -524,7 +524,6 @@ form {
   footer {
     grid-area: footer;
     background-color: #e5c9d433;
-    border-top: 1px solid black;
     padding: 20px 0; }
   main {
     display: grid;
