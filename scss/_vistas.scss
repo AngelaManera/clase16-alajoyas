@@ -150,7 +150,7 @@
    }
    footer{
        grid-area: footer;
-       background-color: lightcyan;
+       background-color: #e5c9d433;
        border-top: 1px solid black;
        padding: 20px 0;
    }
@@ -173,9 +173,7 @@
     grid-area: img3;
    }
 
-   footer{
-    background-image: linear-gradient( to left,grey,black);
-   }
+   
    .transition{
     height: 100px;
     background-color: #e5c9d4;
